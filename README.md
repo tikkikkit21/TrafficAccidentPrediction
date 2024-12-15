@@ -1,5 +1,17 @@
 # Traffic Accident Prediction
-Dataset: https://drive.google.com/file/d/1U3u8QYzLjnEaSurtZfSAS_oh9AT2Mn8X/edit
+We split up our project into multiple sections, each with their corresponding notebook.
+Here is some more information:
 
-The CSV file is too big for GitHub. The dataset file should be in the same
-folder as the notebook.
+- `process_dataset.ipynb`
+    - Run this notebook FIRST
+    - Data cleaning, feature engineering, handling missing values
+- `numerical_analysis.ipynb`
+    - Conducts numerical analysis on the data's features and distribution
+- `visualizations.ipynb`
+    - Visualizes the data with graphs
+- `machine_learning2.ipynb`
+    - Trains several supervised learning classifiers
+    - Compares results and reports accuracy, precision, recall, and F1
+    - **Warning:** running can take a couple *hours*
+
+All libraries we use are in our `requirements.txt` file.
